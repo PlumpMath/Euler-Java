@@ -22,8 +22,8 @@ public class ArrayLists {
   private static ArrayList<Long> getListOfFactors(long n){
     ArrayList<Long> factors = new ArrayList<Long>();
     double sqrtOfLargeNumber = Math.sqrt((double)n);
-    long sqrtOfBANRoundedDown = (long) sqrtOfLargeNumber;
-    for (long i=2;i<=sqrtOfBANRoundedDown;i++){
+    long sqrtOfLargeNumberRoundedDown = (long) sqrtOfLargeNumber;
+    for (long i=2;i<=sqrtOfLargeNumberRoundedDown;i++){
       if(n%i==0){
         factors.add(i);
         factors.add(n/i);
