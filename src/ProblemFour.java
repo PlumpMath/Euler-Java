@@ -14,11 +14,7 @@ public class ProblemFour {
   }
   private static boolean isPalindrome( int n ) {
     //checks if integer reads the same forwards and backwards
-    String printedNumber = Integer.toString(n); // => "888"
-    String printedNumberReversed = ""; // => ""
-    for ( int i = printedNumber.length() - 1; i >= 0; i-- ) {
-      printedNumberReversed += printedNumber.charAt(i);
-    }
-    return printedNumber.equals(printedNumberReversed);
+    StringBuilder printedNumber = new StringBuilder(Integer.toString(n));
+    return (printedNumber.toString()).equals((printedNumber.reverse()).toString());
   }
 }
