@@ -1,6 +1,6 @@
 //Find the sum of the even-numbered Fibonacci numbers not exceeding 4 million.
 
-public class ProblemTwo {
+public class P2 {
   public static void main(String[] args){
     long currentFibonacciNumber = 1;
     long nextFibonacciNumber = 2;

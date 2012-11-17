@@ -1,6 +1,6 @@
 //Find the product abc which is a Pythagorean triplet where a + b + c = 1000.
 
-public class ProblemEight {
+public class P9 {
   public static void main (String[] args) {
     int product = 0;
     for ( int i = 1; i <= 1000; i++ ) {

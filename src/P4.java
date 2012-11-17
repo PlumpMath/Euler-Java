@@ -1,6 +1,6 @@
 //Find the largest palindrome made from the product of two 3-digit numbers.
 
-public class ProblemFour {
+public class P4 {
   public static void main ( String[] args ) {
     int largestPalindromeYet = 0;
     for ( int i = 100; i < 1000; i++ ) {

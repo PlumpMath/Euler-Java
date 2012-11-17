@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayLists {
+public class P3 {
   public static void main(String[] args){
     //Find the largest prime factor of 600851475143
     long numberToFindLargestPrimeFactorOf = 600851475143L;

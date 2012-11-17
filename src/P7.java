@@ -1,6 +1,6 @@
 //What is the 10 001st prime number?
 
-public class ProblemSeven {
+public class P7 {
   public static void main (String[] args) {
     int counter = 0;
     int currentNumber = 1;
