@@ -15,22 +15,15 @@ public class ProblemTen {
       long counter = 0;
       boolean exausted = true;
       for (long prime : primes) {
-        //System.out.println("Checking " + i + " against: " + prime);
         counter++;
         if (i%prime==0) {
-          //skip checking the rest of the arraylist and check the next i
           exausted = false;
           break;
         }
       }
-      //System.out.println(exausted);
       if (exausted) {
         memo += i;
-        
         primes.add(i);
-        //System.out.println(i);
-        //System.out.println(primes);
-        //System.out.println(memo);
       }
     }
     return memo;
